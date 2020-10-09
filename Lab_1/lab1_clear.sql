@@ -1,0 +1,9 @@
+drop table doing;
+drop table doing_result;
+drop table location;
+drop table mentor_student;
+drop table owner_loc;
+drop table parent_child;
+drop table person;
+drop table signal;
+drop table thing;
