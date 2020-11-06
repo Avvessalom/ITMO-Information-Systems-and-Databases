@@ -54,7 +54,7 @@ where "Н_ЛЮДИ"."ОТЧЕСТВО" < 'Георгиевич'
 
 
 ##### Но можно оптимальнее
-![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3%20(2).jpg)
+![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3%20(1).jpg)
 
 
 Индексы:
