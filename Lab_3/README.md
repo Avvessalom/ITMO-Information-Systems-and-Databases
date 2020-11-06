@@ -9,6 +9,8 @@ where "Н_ТИПЫ_ВЕДОМОСТЕЙ"."ИД" < 3
 ![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3.jpg)
 
 Оптимальным планом выполнения запроса является правый, так как вместо полного объединения сущностей мы объединяем только выборки из них. Вследствие этого размер промежуточного отношения меньше.
+##### Но можно оптимальнее
+![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3%20(1).jpg)
 
 Индексы:
 
@@ -49,6 +51,11 @@ where "Н_ЛЮДИ"."ОТЧЕСТВО" < 'Георгиевич'
 ![планы выполнения второго запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/LAB3_2.jpg)
 
 Оптимальным является второй план. За счёт раннего использования выборки, происходит соединение не целых сущностей,а только нужных нам выборок. Следовательно промежуточные данные меньше.
+
+
+##### Но можно оптимальнее
+![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3%20(1).jpg)
+
 
 Индексы:
 
