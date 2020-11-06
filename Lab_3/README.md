@@ -10,7 +10,7 @@ where "Н_ТИПЫ_ВЕДОМОСТЕЙ"."ИД" < 3
 
 Оптимальным планом выполнения запроса является правый, так как вместо полного объединения сущностей мы объединяем только выборки из них. Вследствие этого размер промежуточного отношения меньше.
 ##### Но можно оптимальнее
-![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3(1).jpg)
+![планы выполнения первого запроса](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_3/img/lab3%20(1).jpg)
 
 Индексы:
 
