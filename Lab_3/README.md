@@ -70,7 +70,6 @@ where "Н_ЛЮДИ"."ОТЧЕСТВО" < 'Георгиевич'
 
 ```sql
 create index "НУ_ИД" on "Н_УЧЕНИКИ" using hash ("ИД");
-create index "НО_ЧЛВК_ИД" on "Н_ОБУЧЕНИЯ" using btree ("ЧЛВК_ИД");
 create index "КороткиеГеоргии" on "Н_ЛЮДИ" using btree ("ОТЧЕСТВО");
 ```
 
