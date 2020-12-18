@@ -9,7 +9,7 @@
 
 ## Даталогическая модель
 
-![datalog](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_1/datalogic%20model.png)
+![datalog](https://github.com/Avvessalom/ITMO-Information-Systems-and-Databases/blob/master/Lab_4/Lab_4_new.png)
 
 ## Функциональные зависимости для отношений схемы (минимальное множество)
  * Thing_ID → name
